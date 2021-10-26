@@ -10,4 +10,4 @@ app.get('/', (req, res) => {
 
 const port = process.env.PORT || 4545
 
-app.listen(4545, () => console.log(`Activity detected in sector ${port}`))
+app.listen(port, () => console.log(`Activity detected in sector ${port}`))
